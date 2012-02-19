@@ -1,0 +1,132 @@
+// color
+@bg: #f6f6f6;
+@font: #424242;
+@link: #369;
+@heading: #2b2b2b;
+@white: #fff;
+@black: #111;
+
+// font
+@arial: Arial, sans-serif;
+@alice: 'Alice', serif;
+@hammer: 'Hammersmith One', sans-serif;
+@fell: 'IM Fell English SC', serif;
+
+body {
+  background: @bg;
+  color: @font;
+  font-family: @arial;
+  font-size: 19px;
+  line-height: 1.6em;
+  padding-top: 55px;
+  text-shadow: 1px 1px @white;
+  margin: 0 auto;
+}
+
+a, a:link {
+  color: @link;
+  outline: 0;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+a::selection, h1::selection, h1::-moz-selection, ::selection, ::-moz-selection, a::-moz-selection {
+  background: #f6f6f6;
+}
+
+h1 {
+  bottom: 0;
+  color: @heading;
+  font-size: 40px;
+  left: 90px;
+  padding-bottom: 15px;
+  position: absolute;
+}
+
+h2 {
+  color: @heading;
+  font-size: 29px;
+  margin-bottom: 5px;
+}
+
+strong {
+  font-weight: 700;
+}
+
+p {
+  padding-bottom: 1.2em;
+}
+
+// globals
+.alice {
+  font-family: @alice;
+}
+
+.hammer {
+  font-family: @hammer;
+}
+
+.fell {
+  font-family: @fell;
+}
+
+.push {
+  padding-bottom: 45px;
+}
+
+#container {
+  text-align: left;
+  width: 900px;
+  margin: 0 auto;
+  #header {
+    border-bottom: 4px solid lighten(@black, 10%);
+    height: 80px;
+    margin-bottom: 35px;
+    overflow: hidden;
+    position: relative;
+    img {
+      -moz-border-radius: 5px;
+      -webkit-border-radius: 5px;
+      border-radius: 5px;
+      left: 0;
+      margin-bottom: 5px;
+      position: absolute;
+      top: 0;
+    }
+  }
+  #left {
+    float: left;
+    width: 275px;
+    h2 {
+      padding-bottom: 15px;
+    }
+    .twitter {
+      font-size: 16px;
+      line-height: 1.4em;
+    }
+    ul {
+      margin-bottom: 25px;
+      li {
+        border-bottom: 1px dotted #ddd;
+        list-style: none;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        a {
+          color: #ababab;
+        }
+        span {
+          a {
+            color:#369;
+            font-size:16px;
+          }
+        }
+      }
+    }
+  }
+  #right {
+    float: right;
+    width: 575px;
+  }
+}
