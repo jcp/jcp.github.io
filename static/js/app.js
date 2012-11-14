@@ -27,7 +27,7 @@ $(function () {
     }()),
 
     // -----------------------------------------------------------------------
-    // MOON PHASE
+    // LUNAR PHASE
     // Calculate and display lunar phases.
     // http://www.ben-daglish.net/moon.shtml
     // https://github.com/tingletech/moon-phase/blob/gh-pages/moon-phase.js
@@ -57,7 +57,7 @@ $(function () {
           return r / 29.53059;
         },
         phase = function (pos) {
-          // Return moon phase class
+          // Return lunar phase class
           var r;
           if (pos <= 0.0625 || pos > 0.9375) {
               r = "new-moon";
@@ -79,15 +79,15 @@ $(function () {
           return r;
         };
 
-      // Add moon phase class
-      // both.addClass(phase(pos(y, m, d)));
+      // Add lunar phase class
+      both.addClass(phase(pos(y, m, d)));
       if (!moon.hasClass('new-moon')) {
         moon.animate({
           'opacity': 1
         }, 350);
       }
 
-      // Fade moon in and out when class is "full-moon"
+      // Fade moon in and out when class is "new-moon"
       moon.hover(function () {
         var $this = $(this);
         if ($this.hasClass('new-moon') && !$this.hasClass('active')) {
