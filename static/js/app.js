@@ -8,22 +8,19 @@ $(function () {
     // General UI enhancements
     // -----------------------------------------------------------------------
     ui: (function () {
-      var tip = $('.icon, .tip'),
+      var icon = $('.icon'),
         transition = $('#moon, #phase');
 
       // Add CSS3 transition on resize
       // Avoids awkward reload transition
       $(window).bind('resize', function () {
         if (!transition.hasClass('transition')) {
-          console.log('add class');
           transition.addClass('transition');
         }
       });
 
-      // Add Bootstrap tooltips
-      tip.tooltip({
-        'placement': 'bottom'
-      });
+      // Add tooltips to icons
+      icon.tooltip({'placement': 'bottom'});
     }()),
 
     // -----------------------------------------------------------------------
@@ -60,34 +57,44 @@ $(function () {
           // Return lunar phase class
           var r;
           if (pos <= 0.0625 || pos > 0.9375) {
-              r = "new-moon";
+              r = ['new-moon', 'New Moon'];
           } else if (pos <= 0.1875) {
-              r = "waxing-crescent";
+              r = ['waxing-crescent', 'Waxing Crescent'];
           } else if (pos <= 0.3125) {
-              r = "first-quarter";
+              r = ['first-quarter', 'First Quarter'];
           } else if (pos <= 0.4375) {
-              r = "waxing-gibbous";
+              r = ['waxing-gibbous', 'Waxing Gibbous'];
           } else if (pos <= 0.5625) {
-              r = "full-moon";
+              r = ['full-moon', 'Full Moon'];
           } else if (pos <= 0.6875) {
-              r = "waning-gibbous";
+              r = ['waning-gibbous', 'Waning Gibbous'];
           } else if (pos <= 0.8125) {
-              r = "last-quarter";
+              r = ['last-quarter', 'Last Quarter'];
           } else if (pos <= 0.9375) {
-              r = "new-moon";
+              r = ['new-moon', 'New Moon'];
           }
           return r;
-        };
+        },
+        current = phase(pos(y, m, d));
 
       // Add lunar phase class
-      both.addClass(phase(pos(y, m, d)));
+      both.addClass(current[0]);
+
+      // Add tooltips to moon
+      moon.tooltip({
+        'html': true,
+        'placement': 'bottom',
+        'title': 'Current lunar phase: <strong>' + current[1] + '</strong>'
+      });
+
+      // Fade moon in if not 'new-moon'
       if (!moon.hasClass('new-moon')) {
         moon.animate({
           'opacity': 1
         }, 350);
       }
 
-      // Fade moon in and out when class is "new-moon"
+      // Hover effect for 'new-moon'
       moon.hover(function () {
         var $this = $(this);
         if ($this.hasClass('new-moon') && !$this.hasClass('active')) {
