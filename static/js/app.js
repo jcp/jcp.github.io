@@ -28,6 +28,7 @@ $(function () {
     // Calculate and display lunar phases.
     // http://www.ben-daglish.net/moon.shtml
     // https://github.com/tingletech/moon-phase/blob/gh-pages/moon-phase.js
+    // http://lunaf.com/english/moon-phases/
     // -----------------------------------------------------------------------
     moon: (function () {
       var moon = $('#moon'),
@@ -51,31 +52,31 @@ $(function () {
           r -= ((y < 2000) ? 4 : 8.3);
           r = Math.floor(r + 0.5) % 30;
           r = (r < 0) ? r + 30 : r;
-          return r / 29.53059;
+          return r / 29.53058867;
         },
         phase = function (pos) {
           // Return lunar phase class
           var r;
-          if (pos <= 0.0625 || pos > 0.9375) {
+          if (pos >= 0.97 || pos <= 0.3) {
               r = ['new-moon', 'New Moon'];
-          } else if (pos <= 0.1875) {
+          } else if (pos <= 0.24) {
               r = ['waxing-crescent', 'Waxing Crescent'];
-          } else if (pos <= 0.3125) {
+          } else if (pos <= 0.29) {
               r = ['first-quarter', 'First Quarter'];
-          } else if (pos <= 0.4375) {
+          } else if (pos <= 0.48) {
               r = ['waxing-gibbous', 'Waxing Gibbous'];
-          } else if (pos <= 0.5625) {
+          } else if (pos <= 0.54) {
               r = ['full-moon', 'Full Moon'];
-          } else if (pos <= 0.6875) {
+          } else if (pos <= 0.72) {
               r = ['waning-gibbous', 'Waning Gibbous'];
-          } else if (pos <= 0.8125) {
+          } else if (pos <= 0.77) {
               r = ['last-quarter', 'Last Quarter'];
-          } else if (pos <= 0.9375) {
-              r = ['new-moon', 'New Moon'];
+          } else if (pos <= 0.96) {
+              r = ['waning-crescent', 'Waning Crescent'];
           }
           return r;
         },
-        current = phase(pos(y, m, d));
+        current = phase(pos(y, m, 7));
 
       // Add lunar phase class
       both.addClass(current[0]);
