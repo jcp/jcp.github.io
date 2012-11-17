@@ -76,7 +76,7 @@ $(function () {
           }
           return r;
         },
-        current = phase(pos(y, m, 7));
+        current = phase(pos(y, m, d));
 
       // Add lunar phase class
       both.addClass(current[0]);
