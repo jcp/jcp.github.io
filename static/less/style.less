@@ -53,6 +53,7 @@ img::selection, img::-moz-selection,
   #phase {
     background: lighten(@bg, .2%);
     height: 266px;
+    left: 50%;
     opacity: .9;
     z-index: 99;
     &.new-moon, &.full-moon { display: none; }
@@ -61,18 +62,17 @@ img::selection, img::-moz-selection,
       border: 50px solid rgba(38, 38, 38, .9);
       height: 250px;
       top: -40px;
-      width: 250px;
       .border-radius(250px, 250px, 250px, 250px);
     }
-    &.waning-gibbous { left: -67px; }
-    &.first-quarter { left: -140px; }
-    &.last-quarter { left: 140px; }
+    &.waning-gibbous { margin-left: -240px; }
+    &.first-quarter { margin-left: -275px; }
+    &.last-quarter { margin-left: -5px; }
     &.waxing-crescent {
-      left: -67px;
+      margin-left: -165px;
       .border-radius(250px, 250px, 0, 0);
     }
     &.waning-crescent {
-      left: 67px;
+      margin-left: -115px;
       .border-radius(0, 0, 250px, 250px);
     }
   }

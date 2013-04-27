@@ -57,7 +57,8 @@ $(function () {
         phase = function (pos) {
           // Return lunar phase class
           var r;
-          if (pos >= 0.97 || pos <= 0.04) {
+          console.log(pos);
+          if (pos >= 0.97 || pos <= 0.03) {
               r = ['new-moon', 'New Moon'];
           } else if (pos <= 0.23) {
               r = ['waxing-crescent', 'Waxing Crescent'];

@@ -6,10 +6,8 @@
   top: 25%;
   margin-left: -325px;
   width: 650px;
-  #moon, #phase {
-    left: 0;
-    margin-left: 0 !important;
-  }
+  #moon { margin-left: 0 !important; }
+  #moon, #phase { left: 0; }
   h1 {
     font-size: @font-size + 25;
     right: 0;
@@ -29,5 +27,14 @@
     right: 0;
     top: 28%;
     .icon { margin-left: 4px; }
+  }
+  #phase {
+    left: auto;
+    &.waning-gibbous { margin-left: -100px; }
+    &.first-quarter { margin-left: -135px; }
+    &.last-quarter { margin-left: 140px; }
+    &.waxing-gibbous { margin-left: 0; }
+    &.waning-crescent { margin-left: 25px; }
+    &.waxing-crescent { margin-left: -25px; }
   }
 }
