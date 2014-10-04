@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/jamespalmer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://jamescroninpalmer.com
+  * I am jamespalmer (https://keybase.io/jamespalmer) on keybase.
+  * I have a public key with fingerprint E1BD 0B53 CBA3 CB03 0284  B641 0C21 2C5E A12A B8A1
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "client": {
+            "name": "keybase.io node.js client",
+            "version": "0.7.2"
+        },
+        "key": {
+            "fingerprint": "e1bd0b53cba3cb030284b6410c212c5ea12ab8a1",
+            "host": "keybase.io",
+            "key_id": "0C212C5EA12AB8A1",
+            "uid": "98b8bdece7b9e56cb63c593735390600",
+            "username": "jamespalmer"
+        },
+        "merkle_root": {
+            "ctime": 1412393817,
+            "hash": "a7c1e4e67e42cb934b4dab8a819685a8f6d97c486206fb6a262a372d189bc9981011fcaf09f2ed3dd013c3ce963e14392d2cdcbbda2faa243a474e7e473028dd",
+            "seqno": 71311
+        },
+        "service": {
+            "hostname": "jamescroninpalmer.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412393908,
+    "expire_in": 157680000,
+    "prev": "516cd59cc3a6605969ca7f0214b3e17ac0dd4afbf172e6f6ea995da78e949795",
+    "seqno": 3,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+Comment: GPGTools - https://gpgtools.org
+
+owFVkn9oVlUYx9838xWXSWa2FoPWJRnIy9v5dc+55zWRKSUpwUolk/D1/Lrb3bvd
+++7eu9VaqxiKTEYT1l8WzLkwEBNMjSkxSlBxQv0TOUUIjH4sCFqGVJR1z1qkFy7n
+XO7n+X6f73POgfsX5eryyx4v7hpfMzmevzwrc9uerJ7qd2Sk+5xyv6M6AxOmdheK
+LuOUnarpkyIxpSBqCiNtSh1J0wJTdHpNnARRmFGgxErIGSha3Bb7Qdhm4locWC3H
+QKmBdLGSInsBBsgjkhIIFIJIuUZAJKQnYCbZHiXpXa7OvGYl0NZlY8ZvdJ9ugahl
+g9di+Z75H9yTntRGGSa5camSFCuXY4ZdzAEFwIKJiRcidWRLUhOdXSa2LWdLtdNU
+4iiaz63SwFKQQIQ59iDLmhJJe1YnmIKGGMoMQUpyTCTRtm8Pcuq5wvOp5kwRjyJA
+fUkFokhghjT0uFScexBA6CvhA+4jo7HWAGKFleEUG0gwRxopraTUAvlCIIIFYcRk
+bsxOTOssRWK6w8gpM4ghHLCfcW+gjG3bDu7OfCqOwiD8N2VJRV1ZcS2O0khFnRnS
+nqa1sg0/mfbVbM0rRlYW1CoyCHV2fncesDW7ezAceEXHvFoLYlMJLOEy6oHssT6m
+N5N0IVXa5UphQSlwOeVKMB8gSGSWlwkFtCbClz5kyFCfGsG5qwXzDCeccff/uLjo
+pKItk0yCtlCkPbFxBobyjffm8nW5wuJ77A3O1S194L9rfevPJbfXHpp7fmr3I3M3
+Xzo7Ss4PxyuWlfXtoyPk4xUTrddPX5xpficYi05u+a21fnTf9LNvTh0fvvHo4uYf
+5br1s283yfojq3890PjC5rHeydHCKQ2WFyb2nj9S6Pvj992/vJdbtXP/pvDh2enD
+734zcuzlzzxUvnVw8PUXJ94Aq0YOrpwVHzZ0swfPfb3m8EOnO8SJrR80No1Pd7w2
+tv2rn/6uuv07Gy+/37Dy89FPh0YuPrb8u9U3zaXmOTB1Zv+mvQwtmli7rbV47Is9
+Q/eJtPDMzLkr6BOveuOHE9vf2tcc/XXt+kz5y6sn5Zb88QuHPlrXv+HnmirUD+5p
+AM8NP7F5fXBpR3da6Xlq8Nvv/wE=
+=+29O
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jamespalmer
+
+==================================================================
