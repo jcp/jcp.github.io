@@ -1,0 +1,50 @@
+// third party
+@import (less) "../bower/normalize.css/normalize.css";
+
+// layout
+body {
+  background: #252525;
+  color: #eee;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 20px;
+}
+
+a, a:link {
+  color: #eee;
+  text-decoration: none;
+
+  &:hover { color: #ccc; }
+}
+
+#particles {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.container {
+  margin: 10% auto 0;
+  position: relative;
+  text-align: center;
+  width: 400px;
+  z-index: 1;
+
+  h1 {
+    font-size: 45px;
+    line-height: 1em;
+    margin: 0 0 5px;
+  }
+
+  p { margin-bottom: 35px; }
+
+  .icons {
+    .fa {
+      font-size: 40px;
+      margin-left: 10px;
+
+      &:first-child { margin-left: 0; }
+    }
+  }
+}
