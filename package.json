@@ -1,14 +1,19 @@
 {
-  "name": "jamespalmer",
-  "version": "2.0.0",
-  "description": "",
-  "dependencies": {},
-  "devDependencies": {
-    "grunt-cli": "latest",
-    "grunt-contrib-concat": "latest",
-    "grunt-contrib-less": "latest",
-    "grunt-contrib-uglify": "latest",
-    "grunt-contrib-watch": "latest",
-    "grunt-autoprefixer": "latest"
+  "name": "jcp.io",
+  "version": "2.1.0",
+  "description": "Theme for http://jcp.io",
+  "repository": "https://github.com/jcp/jcp.github.com",
+  "dependencies": {
+    "gulp": "latest",
+    "gulp-add-src": "latest",
+    "gulp-autoprefixer": "latest",
+    "gulp-concat": "latest",
+    "gulp-copy": "latest",
+    "gulp-less": "latest",
+    "gulp-livereload": "latest",
+    "gulp-minify-css": "latest",
+    "gulp-rename": "latest",
+    "gulp-uglify": "latest",
+    "gulp-watch": "latest"
   }
 }
