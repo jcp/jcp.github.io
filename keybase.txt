@@ -4,69 +4,67 @@ https://keybase.io/jamespalmer
 
 I hereby claim:
 
-  * I am an admin of http://jamescroninpalmer.com
+  * I am an admin of http://jcp.io
   * I am jamespalmer (https://keybase.io/jamespalmer) on keybase.
-  * I have a public key with fingerprint E1BD 0B53 CBA3 CB03 0284  B641 0C21 2C5E A12A B8A1
+  * I have a public key with fingerprint ADF9 C2B2 EFA3 9C20 BE7C  894B 94AD CE4D 7426 6CC6
 
-To claim this, I am signing this object:
+To do so, I am signing this object:
 
 {
-    "body": {
-        "client": {
-            "name": "keybase.io node.js client",
-            "version": "0.7.2"
-        },
-        "key": {
-            "fingerprint": "e1bd0b53cba3cb030284b6410c212c5ea12ab8a1",
-            "host": "keybase.io",
-            "key_id": "0C212C5EA12AB8A1",
-            "uid": "98b8bdece7b9e56cb63c593735390600",
-            "username": "jamespalmer"
-        },
-        "merkle_root": {
-            "ctime": 1412393817,
-            "hash": "a7c1e4e67e42cb934b4dab8a819685a8f6d97c486206fb6a262a372d189bc9981011fcaf09f2ed3dd013c3ce963e14392d2cdcbbda2faa243a474e7e473028dd",
-            "seqno": 71311
-        },
-        "service": {
-            "hostname": "jamescroninpalmer.com",
-            "protocol": "http:"
-        },
-        "type": "web_service_binding",
-        "version": 1
+  "body": {
+    "key": {
+      "eldest_kid": "012044726b2b1c0410393b27d3acb3be23e76110fdfdf2084fe19e5b0ab6667465cd0a",
+      "fingerprint": "adf9c2b2efa39c20be7c894b94adce4d74266cc6",
+      "host": "keybase.io",
+      "key_id": "94adce4d74266cc6",
+      "kid": "0101ac8bac784e046e24d036a407d3529dc9a24e22d62acfd520a53c017a97620bfa0a",
+      "uid": "98b8bdece7b9e56cb63c593735390600",
+      "username": "jamespalmer"
     },
-    "ctime": 1412393908,
-    "expire_in": 157680000,
-    "prev": "516cd59cc3a6605969ca7f0214b3e17ac0dd4afbf172e6f6ea995da78e949795",
-    "seqno": 3,
-    "tag": "signature"
+    "service": {
+      "hostname": "jcp.io",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1523573039,
+  "expire_in": 157680000,
+  "prev": "37fcdd9bb9658e743fc5627630c477841244fd1a6c47b423a7cff8f8a3fefc28",
+  "seqno": 12,
+  "tag": "signature"
 }
 
-with the aforementioned key, yielding the PGP signature:
+which yields the signature:
 
 -----BEGIN PGP MESSAGE-----
-Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
-Comment: GPGTools - https://gpgtools.org
+Version: Keybase OpenPGP v2.0.76
+Comment: https://keybase.io/crypto
 
-owFVkn9oVlUYx9838xWXSWa2FoPWJRnIy9v5dc+55zWRKSUpwUolk/D1/Lrb3bvd
-++7eu9VaqxiKTEYT1l8WzLkwEBNMjSkxSlBxQv0TOUUIjH4sCFqGVJR1z1qkFy7n
-XO7n+X6f73POgfsX5eryyx4v7hpfMzmevzwrc9uerJ7qd2Sk+5xyv6M6AxOmdheK
-LuOUnarpkyIxpSBqCiNtSh1J0wJTdHpNnARRmFGgxErIGSha3Bb7Qdhm4locWC3H
-QKmBdLGSInsBBsgjkhIIFIJIuUZAJKQnYCbZHiXpXa7OvGYl0NZlY8ZvdJ9ugahl
-g9di+Z75H9yTntRGGSa5camSFCuXY4ZdzAEFwIKJiRcidWRLUhOdXSa2LWdLtdNU
-4iiaz63SwFKQQIQ59iDLmhJJe1YnmIKGGMoMQUpyTCTRtm8Pcuq5wvOp5kwRjyJA
-fUkFokhghjT0uFScexBA6CvhA+4jo7HWAGKFleEUG0gwRxopraTUAvlCIIIFYcRk
-bsxOTOssRWK6w8gpM4ghHLCfcW+gjG3bDu7OfCqOwiD8N2VJRV1ZcS2O0khFnRnS
-nqa1sg0/mfbVbM0rRlYW1CoyCHV2fncesDW7ezAceEXHvFoLYlMJLOEy6oHssT6m
-N5N0IVXa5UphQSlwOeVKMB8gSGSWlwkFtCbClz5kyFCfGsG5qwXzDCeccff/uLjo
-pKItk0yCtlCkPbFxBobyjffm8nW5wuJ77A3O1S194L9rfevPJbfXHpp7fmr3I3M3
-Xzo7Ss4PxyuWlfXtoyPk4xUTrddPX5xpficYi05u+a21fnTf9LNvTh0fvvHo4uYf
-5br1s283yfojq3890PjC5rHeydHCKQ2WFyb2nj9S6Pvj992/vJdbtXP/pvDh2enD
-734zcuzlzzxUvnVw8PUXJ94Aq0YOrpwVHzZ0swfPfb3m8EOnO8SJrR80No1Pd7w2
-tv2rn/6uuv07Gy+/37Dy89FPh0YuPrb8u9U3zaXmOTB1Zv+mvQwtmli7rbV47Is9
-Q/eJtPDMzLkr6BOveuOHE9vf2tcc/XXt+kz5y6sn5Zb88QuHPlrXv+HnmirUD+5p
-AM8NP7F5fXBpR3da6Xlq8Nvv/wE=
-=+29O
+yMNvAnicbVJtUFRVGF4+NnQlhBlTmkDlRk7J1/3+ICRmAKmJRMbwk4R7zz0XbrB3
+t90FJAYoLASN0HEbLShKoyEjQUNopASKyAlDPhZnwRqURIQMHLIJiKKzGP8658c5
+73ue5znP+57T+bCHzuBm/7znBdum7C637g57jm7v1ZsRBZhkkvOxyAIsCy4tMFuG
+VltalipjkRhOkDhNcyQrkRIBcJrAKYGSSE6mRCBREiQpyLEEgSsymiTO0wokBMhI
+uCixLMvRLANkXMRCMUXVMqDFbFE1G5IVZUUApERCRaTQBpcgB3iBlgRalAGkZY4m
+WRYAFhEzTVYXA5mTRCsMV00oh4K0JXv/g1/2jRMi4CURcDwNcZqFJC3jFCvSOPLO
+kIIMBJGkIUnKLCkCRWZIXGQogBOcKHAscqSIS75zHtzDS7wkQwA5CVXHAomlACNQ
+HMVQAs7iuAtohRZNNEKEfhktVrOYbYQWrDAUQwe5KoCu3rqKWQYB84NizBaTzQRM
+2SiXabOZI10UW77ZhcmDUtp/7DRJ1WTUQ0TIhRaratKwSAIhgU11yREMSTEchV4n
+FIMHzKoFpqkuBMOxPI6G6xqYiyQpTgGyLEiSwDI85GhKAQxLciyFA5pDvSJImlZk
+QmRRKNEkJXJAUXiFFykFKoDkMVc9r2gmpE0in2IG0rSqGZpoy7FArPCbjlRPnZtB
+95De3fW5dIaVvstfbtyxerGwZaT36XLjUyt8zFRoAyVT9/6ZT2h5/rnb+7JafonO
+cAYX3/0rP2RnEFNSe/Z6gdZ48Wr9UOxbdaT3n8Sgm1f06X7Okbnbp8ZQOnPhSFxr
+cvmZ9hCMvRTncUpZnPw1IukDOu+HoCbnrLZ9qr7V62+C0wrqlXjfqMlH1KD2mU9v
+7i5+7cZkWU9ZSHzC6Oy6opLimNaurUmfbWxaN7Fm48+reppO+V2Ja9g5cfr8+aw5
+Pi5Pv3nDntT2qAkjEb965Nv9IVW9K8P1u05WR01FPna2+qeSwjBTkp9nYFjFicr6
+8YWaiu0LRMzHX99JSjGEnng73HvQ1zNodCo9peyNOu+AqPvbHEzpo5UBs7OB7Kbr
+7q3hx790HnrT3z/zvYXKNq54rHvzteh7VU/MNid3JEaF7Qgev+Z0pN8qd8bUKvt9
+Skdf7Gp7aQSLO/D40emy/tgq98TLBQeHjvUZA1ccuT2is5fk/rilcyDAfrB1zv5O
+4/vH3o3IGJq7NVS3PjVH0+0KW7zcsnbgaKO9vaYhP+VuHz/WN3bIr7vonKOZmv5u
+W2/ysLhhfWy+HPFFulH/lTilS070SMjzffLGR8NF4f3BhjVzf3jN1Po3T+9xDmsj
+g/fp7JNTeXfmL+woPnwGXhwwHq+70mnqfTWi7dJvVRXVjme+t+lXtcwfntyy93dm
+Wv/JuX3GDzPXvv6s+i/d7cgn
+=PEyJ
 -----END PGP MESSAGE-----
 
 And finally, I am proving ownership of this host by posting or
