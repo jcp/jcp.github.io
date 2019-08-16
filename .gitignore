@@ -1,3 +1,16 @@
-assets/build
-bower_components
-node_modules
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+.cache/
+node_modules/
+public
