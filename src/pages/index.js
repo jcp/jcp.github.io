@@ -6,7 +6,7 @@ import SEO from '../components/seo';
 
 export default ({ data }) => (
   <Layout>
-    <SEO title="James C. Palmer" />
+    <SEO />
     {data.allMarkdownRemark.edges.map(({ node }) => {
       return <Post key={node.id} post={node} />;
     })}

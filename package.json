@@ -2,7 +2,7 @@
   "name": "jcp.io",
   "private": true,
   "description": "Theme for https://jcp.io",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "author": "James C. Palmer <me@jcp.io>",
   "dependencies": {
     "gatsby": "^2.13.64",
@@ -42,6 +42,6 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\""
+    "format": "prettier --write \"**/*.{js,jsx,json}\""
   }
 }

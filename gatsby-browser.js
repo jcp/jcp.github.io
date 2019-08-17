@@ -1,6 +1,5 @@
-require('typeface-montserrat');
-require('typeface-ubuntu');
-
+import 'typeface-montserrat';
+import 'typeface-ubuntu';
 import './src/static/scss/app.scss';
 
 // Safari / IE polyfill for gatsby-background-image
