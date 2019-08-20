@@ -2,7 +2,7 @@
   "name": "jcp.io",
   "private": true,
   "description": "Theme for https://jcp.io",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "author": "James C. Palmer <me@jcp.io>",
   "dependencies": {
     "gatsby": "^2.13.72",
