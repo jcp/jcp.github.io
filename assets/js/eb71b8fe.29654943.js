@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkjcp=self.webpackChunkjcp||[]).push([[834],{6520:e=>{e.exports=JSON.parse('{"title":"Linux","slug":"/category/linux","permalink":"/docs/category/linux","navigation":{"previous":{"title":"Dotfiles","permalink":"/docs/dotfiles"},"next":{"title":"Configure Ubuntu","permalink":"/docs/linux/configure-ubuntu"}}}')}}]);
