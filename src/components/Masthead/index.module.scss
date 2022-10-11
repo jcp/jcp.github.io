@@ -1,0 +1,16 @@
+.masthead {
+  --ifm-h1-font-size: 3rem;
+  max-width: 750px;
+  padding: 0 var(--ifm-global-spacing);
+  text-align: center;
+
+  p {
+    --ifm-paragraph-margin-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+
+  pre {
+    white-space: pre-wrap;
+    text-align: left;
+  }
+}

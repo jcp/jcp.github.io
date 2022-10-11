@@ -1,24 +1,45 @@
-# Theme
+# Website
 
-https://jcp.io
+Personal website built with [Docusaurus](https://docusaurus.io/).
 
-## James C. Palmer
+## Development
 
-Entrepreneur, technologist and explorer.
+### `start`
 
-## Social
+Start a local development server with live reload.
 
-* [Github](https://github.com/jcp)
-* [Instagram](https://instagram.com/jamespalmer)
-* [LinkedIn](https://linkedin.com/in/jamescroninpalmer)
+```shell
+npx docusaurus start
+```
 
-## Recent Projects
+### `build`
 
-* [Data Filter](https://github.com/jcp/datafilter)
-* [Names](https://github.com/jcp/django-names)
-* [Kaggle Digit Recognizer](https://github.com/jcp/sandbox/tree/master/kaggle-digit-recognizer)
-* [Multi Object Video Tracking with OpenCV](https://github.com/jcp/sandbox/tree/master/multi-object-video-tracking-with-opencv)
-* [Video Tracking and Analysis with ImageAI](https://github.com/jcp/sandbox/tree/master/image-ai-object-detection)
-* [Dotfiles](https://github.com/jcp/dotfiles)
-* [Installation Guides](https://github.com/jcp/installation-guides)
-* [Sandbox](https://github.com/jcp/sandbox)
+Generate static content in the `build` directory.
+
+```shell
+npx docusaurus build
+```
+
+### `serve
+
+Serve built website locally.
+
+```shell
+npx docusaurus serve
+```
+
+### `clear`
+
+Clear a website's generated assets, caches and build artifacts.
+
+```shell
+npx docusaurus clear
+```
+
+### `tsc`
+
+Perform a code typecheck.
+
+```shell
+npx tsc
+```
