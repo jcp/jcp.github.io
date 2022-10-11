@@ -43,6 +43,8 @@ Install [Zsh and Oh My Zsh](/docs/linux/configure-ubuntu#terminal) before you ru
 
 After installation, the following [aliases](<https://en.wikipedia.org/wiki/Alias_(command)>) are supported.
 
+### File System
+
 | Alias                        | Description                               | Command                                         |
 | ---------------------------- | ----------------------------------------- | ----------------------------------------------- |
 | <kbd>c</kbd>                 | Open directory in Visual Studio Code.     | `code .`                                        |
@@ -51,6 +53,16 @@ After installation, the following [aliases](<https://en.wikipedia.org/wiki/Alias
 | <kbd>doc</kbd>               | Change directory to `~/Documents`.        | `cd ~/Documents`                                |
 | <kbd>dotfiles</kbd>          | Change directory to `~/.config/dotfiles`. | `cd ~/.config/dotfiles`                         |
 | <kbd>ls</kbd>, <kbd>l</kbd>  | Enhance `ls` results with `exa`.          | `exa -alh --group-directories-first --classify` |
-| <kbd>copy</kbd>              | hortcut for `xcopy`.                      | `xcopy`                                         |
-| <kbd>down</kbd>              | Split window down.                        | `tilix -a session-add-down`                     |
-| <kbd>right</kbd>             | Split window right.                       | `tilix -a session-add-right`                    |
+
+### Applications
+
+| Alias            | Description         | Command                      |
+| ---------------- | ------------------- | ---------------------------- |
+| <kbd>down</kbd>  | Split window down.  | `tilix -a session-add-down`  |
+| <kbd>right</kbd> | Split window right. | `tilix -a session-add-right` |
+
+### Scripts
+
+| Alias              | Description                                    | Command                              |
+| ------------------ | ---------------------------------------------- | ------------------------------------ |
+| <kbd>develop</kbd> | Copy development dotfiles to active directory. | `bash ~/.config/dotfiles/develop.sh` |

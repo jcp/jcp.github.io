@@ -20,7 +20,7 @@ Generate static content in the `build` directory.
 npx docusaurus build
 ```
 
-### `serve
+### `serve`
 
 Serve built website locally.
 
